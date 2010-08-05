@@ -1,0 +1,8 @@
+[Gedit Plugin]
+Loader=python
+Module=windowdefaults
+IAge=2
+Name=Window Defaults
+Description=Window Default Configuration
+Authors=Marc Zinnschlag <marc@zpages.de>
+Copyright=Copyright © 2010 Marc Zinnschlag <marc@zpages.de>
