@@ -1,0 +1,35 @@
+
+gedit WindowDefaults
+
+
+WindowDefaults is a gedit plugin, that allows to set fixed default settings for newly
+opened windows. Without this plugin gedit will usually use the settings from a previously
+opened window.
+
+Currently the following settings are supported:
+
+- window width
+- window height
+
+
+
+INSTALL
+
+Copy the following files to ~/.gnome2/gedit/plugins:
+
+windowdefaults.gedit-plugin
+windowdefaults.py
+
+
+
+HOW TO USE
+
+Enable the plugin via the preferences ( Edit -> Preferences -> Plugins).
+
+To set the default settings, use the menu item Edit -> Use As Default. This will use the
+settings from the active gedit window as default. Once the default settings are set, gedit
+will always use them when opening a new window
+(settings are stored in ~/.gnome2/gedit/WindowDefaults.ini).
+
+Until you have set the default settings for the first time, WindowDefaults will
+always pick up the settings from the first opened window within a session.
